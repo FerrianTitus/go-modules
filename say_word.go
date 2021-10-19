@@ -1,5 +1,5 @@
 package go_modules
 
-func SayWord() string{
-	return "kKpak"
+func SayWord(word string) string{
+	return "kKpak" + word
 }
